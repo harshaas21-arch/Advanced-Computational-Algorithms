@@ -19,8 +19,6 @@ bool isMinHeap(const std::vector<int> &arr)
        }
        return true;
 }
-
-
 int main()
 {
        int n;
@@ -38,7 +36,5 @@ int main()
        {
               std::cout << "False: The array violates min-heap rules." << std::endl;
        }
-
-
        return 0;
 }
